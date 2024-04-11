@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav,footer{
+    flex-shrink: 0;
+}
+section{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: aqua;
+    
+}
+
+section span{
+    position:absolute;
+    text-align: center;
+    background-color: rgb(183, 143, 221);
+    width:150px;
+    height:20px;
+    top:100px;
+}
+
+nav{
+    background-color:  rgb(199, 194, 194);
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+nav ul li{
+   
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+}
+
+
+#logo{
+    width: 50%;
+    height: 200px;
+    
+}
+
+img{
+    height:100px;
+    width: 100%;
+}
+
+
+.layer{
+    background-color: rgb(199, 194, 194);
+    padding: 10px 0;
+    border-bottom: 2px solid gray;
+    width: 100%;
+}
+
+.fix{
+    position: fixed;
+    width:100px;
+    height:100px;
+    top:10px;
+    left:10px;
+    background-color: blue;
+}

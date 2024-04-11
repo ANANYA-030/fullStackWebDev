@@ -1,0 +1,43 @@
+body{
+    background-color: pink;
+}
+
+.newLayout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+/*
+.first{
+    flex-shrink: 0;
+}
+*/
+
+.newLayout div{
+    background: blue;
+    /*width: 200px; */
+    border-radius: 10px;
+    flex-basis: 200px;
+    flex-shrink: 0;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+#parent{
+    background-color: red;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height:50vh;
+    width:100vw;
+}
+
+#child{
+    background-color: yellowgreen;
+    width: 100px;
+    height:100px;
+}
